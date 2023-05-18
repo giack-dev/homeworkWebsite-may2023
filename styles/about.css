@@ -1,0 +1,16 @@
+.about {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.about p {
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    width: 100%;
+    display: block;
+  }
+}

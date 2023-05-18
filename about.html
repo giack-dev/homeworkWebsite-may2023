@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/navbar.css" />
-    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/about.css" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
     <title>About</title>
   </head>
   <body>
@@ -14,18 +16,26 @@
       <a href="./index.html">Home</a>
       <a href="./articles.html">Articles</a>
       <a href="./about.html" class="active">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
 
-    <p>
-      Ciao, sono Giacomo Peretti. Sono nato il 2 dicembre 2006 a Torino. Mi è
-      sempre piaciuto giocare e armeggiare con i computer e durante l'ultimo
-      anno di scuola media ho sviluppato una passione per l'ingegneria del
-      software e la scrittura di codice. Io uso Arch Linux e sostengo la
-      comunità del software open source. Attualmente sto studiando all'Istituto
-      Tecnico Pininfarina, una scuola superiore focalizzata sulla programmazione
-      con sede a Torino. In futuro, mi piacerebbe diventare uno sviluppatore
-      backend. Nel mio tempo libero mi piace uscire con gli amici, ma più di
-      ogni altra cosa mi piace giocare a basket🏀. Vuoi parlare? Email Me!
-    </p>
+    <div class="about">
+      <p>
+        Mi chiamo Giacomo Peretti. Sono nato il 2 dicembre 2006 a Torino. Mi è
+        sempre piaciuto giocare e armeggiare con i computer e durante l'ultimo
+        anno di scuola media ho scoperto una passione per e la scrittura di
+        codice. Attualmente sto studiando all'Istituto Tecnico Pininfarina, una
+        scuola superiore focalizzata sull'informatica con sede a Torino. In
+        futuro, mi piacerebbe diventare uno sviluppatore backend. Nel mio tempo
+        libero mi piace uscire con gli amici, ma più di ogni altra cosa mi piace
+        giocare a basket🏀. Vuoi parlare?
+        <a href="mailto:peretti.giacomo20@studentipinin.it">Scrivimi!</a>
+      </p>
+      <img src="./assets/me.jpg" alt="A picture of me" />
+    </div>
+
+    <script src="./js/navbar.js"></script>
   </body>
 </html>

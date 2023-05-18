@@ -1,6 +1,9 @@
 .topnav {
   overflow: hidden;
   background-color: #3c3836;
+  /* position: fixed;
+  top: 0; */
+  width: 100%;
 }
 
 .topnav a {
@@ -21,6 +24,10 @@
 .topnav a.active {
   background-color: #458588;
   color: #ebdbb2;
+}
+
+.topnav .icon {
+  display: none;
 }
 
 @media screen and (max-width: 600px) {

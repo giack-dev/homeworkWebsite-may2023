@@ -6,3 +6,15 @@ body {
   background-color: #282828;
   color: #ebdbb2;
 }
+
+a:link {
+  color: #458588;
+}
+
+a:visited {
+  color: #83a598;
+}
+
+a:hover, a:active {
+  color: #8ec07c;
+}
