@@ -10,7 +10,14 @@
 
 @media screen and (max-width: 600px) {
   .about {
+    margin: 0px;
     width: 100%;
     display: block;
+  }
+
+  .about img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
