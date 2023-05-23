@@ -1,0 +1,41 @@
+.social img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  outline: 5px solid #665c54;
+  outline-offset: 5px;
+}
+
+.links {
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 400px;
+  gap: 40px;
+}
+
+.links i {
+  transform: scale(1.3);
+}
+
+.social a:link {
+  color: #ebdbb2;
+}
+
+.social a:visited {
+  color: #ebdbb2;
+}
