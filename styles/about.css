@@ -1,10 +1,15 @@
 .about {
   width: 50%;
+  height: 350px;
+  background-color: #3c3836;
   display: flex;
   align-items: center;
-}
-
-.about p {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   padding: 15px;
 }
 
