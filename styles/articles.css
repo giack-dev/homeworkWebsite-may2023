@@ -24,7 +24,6 @@ img {
 
 .headImg {
   display: block;
-
   margin-bottom: 25px;
   margin-left: auto;
   margin-right: auto;
@@ -32,4 +31,12 @@ img {
 
 .image {
   display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+  .headImg,
+  .image {
+    width: 325px;
+    height: auto;
+  }
 }
